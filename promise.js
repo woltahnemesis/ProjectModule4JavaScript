@@ -8,7 +8,6 @@ fetch('https://woltahnemesis.github.io/Lab4JavaScript/onlineStore.json')
 // Then object from json is retrieved
 .then(function(json){
     let products = json;
-    console.log(products);
     return products;
 })
 // Displays the object
@@ -38,8 +37,6 @@ fetch('https://woltahnemesis.github.io/Lab4JavaScript/onlineStore.json')
         
         div.appendChild(img);
         main_area.appendChild(div);
-        
-        console.log(i); 
         
     }
 })
