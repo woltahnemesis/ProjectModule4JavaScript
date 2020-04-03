@@ -1,0 +1,33 @@
+html {
+    background-color: azure;
+}
+
+.main-area {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    max-width: 30em;
+    text-align: center;
+}
+
+.main-area h2{
+    padding: 10px 0 0 0;
+    font-family: 'Gotu', sans-serif;
+}
+
+#box {
+    max-width: 30em;
+    text-align: center;
+    border-bottom: thin solid azure;
+    padding: 0 10px 10px 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main-area #box img {
+}
+
+footer{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
