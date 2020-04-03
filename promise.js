@@ -5,11 +5,6 @@ fetch('https://woltahnemesis.github.io/Lab4JavaScript/onlineStore.json')
 .then(function(response){
     return response.json();
 })
-// Then object from json is retrieved
-.then(function(json){
-    let products = json;
-    return products;
-})
 // Displays the object
 .then(function(jsonObj){
     
